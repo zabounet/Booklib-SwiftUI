@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D809C4EB2B99F01C004A736C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D809C4EA2B99F01C004A736C /* Session.swift */; };
+		D809C4ED2B9A0B16004A736C /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D809C4EC2B9A0B16004A736C /* ProfilView.swift */; };
+		D88882A92B9865E50041BA90 /* Booklib_NicolasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882A82B9865E50041BA90 /* Booklib_NicolasApp.swift */; };
+		D88882AB2B9865E50041BA90 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882AA2B9865E50041BA90 /* MainView.swift */; };
+		D88882AD2B9865E60041BA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88882AC2B9865E60041BA90 /* Assets.xcassets */; };
+		D88882B02B9865E60041BA90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88882AF2B9865E60041BA90 /* Preview Assets.xcassets */; };
+		D88882BF2B9866B10041BA90 /* coiny-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D88882BD2B9866B10041BA90 /* coiny-regular.ttf */; };
+		D88882C32B9869950041BA90 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882C22B9869950041BA90 /* LoginView.swift */; };
+		D88882C62B986E100041BA90 /* CustomInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882C52B986E100041BA90 /* CustomInput.swift */; };
+		D88882CD2B9880C60041BA90 /* ForgotPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882CC2B9880C60041BA90 /* ForgotPasswordScreen.swift */; };
+		D88882CF2B9881FB0041BA90 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882CE2B9881FB0041BA90 /* RegisterScreen.swift */; };
+		D88882D12B9882E60041BA90 /* CustomStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882D02B9882E60041BA90 /* CustomStyles.swift */; };
+		D88882D62B989AA50041BA90 /* Utilisateurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882D52B989AA50041BA90 /* Utilisateurs.swift */; };
+		D88882D82B989AF70041BA90 /* Livres.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882D72B989AF70041BA90 /* Livres.swift */; };
+		D88882DA2B989E680041BA90 /* UtilisateursDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882D92B989E680041BA90 /* UtilisateursDatas.swift */; };
+		D88882DD2B989F370041BA90 /* LivresDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882DC2B989F370041BA90 /* LivresDatas.swift */; };
+		D88882DF2B98A1D40041BA90 /* LivresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882DE2B98A1D40041BA90 /* LivresListView.swift */; };
+		D88882E12B98A1E20041BA90 /* LivresCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882E02B98A1E20041BA90 /* LivresCellView.swift */; };
+		D88882E32B98A9090041BA90 /* LivreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88882E22B98A9090041BA90 /* LivreDetailView.swift */; };
+		D8BEDA562B9AFE4F00F4C9D0 /* AddLivreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BEDA552B9AFE4F00F4C9D0 /* AddLivreView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D809C4EA2B99F01C004A736C /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		D809C4EC2B9A0B16004A736C /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		D88882A52B9865E50041BA90 /* Booklib-Nicolas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Booklib-Nicolas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88882A82B9865E50041BA90 /* Booklib_NicolasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booklib_NicolasApp.swift; sourceTree = "<group>"; };
+		D88882AA2B9865E50041BA90 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D88882AC2B9865E60041BA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88882AF2B9865E60041BA90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D88882BD2B9866B10041BA90 /* coiny-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "coiny-regular.ttf"; sourceTree = "<group>"; };
+		D88882C12B9866CD0041BA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D88882C22B9869950041BA90 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D88882C52B986E100041BA90 /* CustomInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomInput.swift; sourceTree = "<group>"; };
+		D88882CC2B9880C60041BA90 /* ForgotPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordScreen.swift; sourceTree = "<group>"; };
+		D88882CE2B9881FB0041BA90 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		D88882D02B9882E60041BA90 /* CustomStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStyles.swift; sourceTree = "<group>"; };
+		D88882D52B989AA50041BA90 /* Utilisateurs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilisateurs.swift; sourceTree = "<group>"; };
+		D88882D72B989AF70041BA90 /* Livres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livres.swift; sourceTree = "<group>"; };
+		D88882D92B989E680041BA90 /* UtilisateursDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilisateursDatas.swift; sourceTree = "<group>"; };
+		D88882DC2B989F370041BA90 /* LivresDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivresDatas.swift; sourceTree = "<group>"; };
+		D88882DE2B98A1D40041BA90 /* LivresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivresListView.swift; sourceTree = "<group>"; };
+		D88882E02B98A1E20041BA90 /* LivresCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivresCellView.swift; sourceTree = "<group>"; };
+		D88882E22B98A9090041BA90 /* LivreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivreDetailView.swift; sourceTree = "<group>"; };
+		D8BEDA552B9AFE4F00F4C9D0 /* AddLivreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLivreView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88882A22B9865E50041BA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D888829C2B9865E50041BA90 = {
+			isa = PBXGroup;
+			children = (
+				D88882A72B9865E50041BA90 /* Booklib-Nicolas */,
+				D88882A62B9865E50041BA90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88882A62B9865E50041BA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88882A52B9865E50041BA90 /* Booklib-Nicolas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88882A72B9865E50041BA90 /* Booklib-Nicolas */ = {
+			isa = PBXGroup;
+			children = (
+				D88882C12B9866CD0041BA90 /* Info.plist */,
+				D88882A82B9865E50041BA90 /* Booklib_NicolasApp.swift */,
+				D88882BC2B98667F0041BA90 /* Fonts */,
+				D88882D22B9883330041BA90 /* Styles */,
+				D88882CB2B987F5D0041BA90 /* Screens */,
+				D88882B62B9866110041BA90 /* Views */,
+				D88882C42B986DFA0041BA90 /* Components */,
+				D88882B82B98661D0041BA90 /* Models */,
+				D88882BB2B9866460041BA90 /* Services */,
+				D88882B92B9866250041BA90 /* Utilities */,
+				D88882BA2B9866300041BA90 /* Extensions */,
+				D88882AC2B9865E60041BA90 /* Assets.xcassets */,
+				D88882AE2B9865E60041BA90 /* Preview Content */,
+			);
+			path = "Booklib-Nicolas";
+			sourceTree = "<group>";
+		};
+		D88882AE2B9865E60041BA90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D88882AF2B9865E60041BA90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D88882B62B9866110041BA90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D88882AA2B9865E50041BA90 /* MainView.swift */,
+				D88882C22B9869950041BA90 /* LoginView.swift */,
+				D88882DE2B98A1D40041BA90 /* LivresListView.swift */,
+				D88882E02B98A1E20041BA90 /* LivresCellView.swift */,
+				D88882E22B98A9090041BA90 /* LivreDetailView.swift */,
+				D809C4EC2B9A0B16004A736C /* ProfilView.swift */,
+				D8BEDA552B9AFE4F00F4C9D0 /* AddLivreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D88882B82B98661D0041BA90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D88882D52B989AA50041BA90 /* Utilisateurs.swift */,
+				D88882D72B989AF70041BA90 /* Livres.swift */,
+				D809C4EA2B99F01C004A736C /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D88882B92B9866250041BA90 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D88882BA2B9866300041BA90 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D88882BB2B9866460041BA90 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D88882D92B989E680041BA90 /* UtilisateursDatas.swift */,
+				D88882DC2B989F370041BA90 /* LivresDatas.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D88882BC2B98667F0041BA90 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D88882BD2B9866B10041BA90 /* coiny-regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D88882C42B986DFA0041BA90 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D88882C52B986E100041BA90 /* CustomInput.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D88882CB2B987F5D0041BA90 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D88882CC2B9880C60041BA90 /* ForgotPasswordScreen.swift */,
+				D88882CE2B9881FB0041BA90 /* RegisterScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D88882D22B9883330041BA90 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				D88882D02B9882E60041BA90 /* CustomStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88882A42B9865E50041BA90 /* Booklib-Nicolas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88882B32B9865E60041BA90 /* Build configuration list for PBXNativeTarget "Booklib-Nicolas" */;
+			buildPhases = (
+				D88882A12B9865E50041BA90 /* Sources */,
+				D88882A22B9865E50041BA90 /* Frameworks */,
+				D88882A32B9865E50041BA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Booklib-Nicolas";
+			productName = "Booklib-Nicolas";
+			productReference = D88882A52B9865E50041BA90 /* Booklib-Nicolas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D888829D2B9865E50041BA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D88882A42B9865E50041BA90 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D88882A02B9865E50041BA90 /* Build configuration list for PBXProject "Booklib-Nicolas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D888829C2B9865E50041BA90;
+			productRefGroup = D88882A62B9865E50041BA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88882A42B9865E50041BA90 /* Booklib-Nicolas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88882A32B9865E50041BA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88882B02B9865E60041BA90 /* Preview Assets.xcassets in Resources */,
+				D88882BF2B9866B10041BA90 /* coiny-regular.ttf in Resources */,
+				D88882AD2B9865E60041BA90 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88882A12B9865E50041BA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88882CF2B9881FB0041BA90 /* RegisterScreen.swift in Sources */,
+				D88882D82B989AF70041BA90 /* Livres.swift in Sources */,
+				D809C4ED2B9A0B16004A736C /* ProfilView.swift in Sources */,
+				D88882D12B9882E60041BA90 /* CustomStyles.swift in Sources */,
+				D88882C32B9869950041BA90 /* LoginView.swift in Sources */,
+				D88882E12B98A1E20041BA90 /* LivresCellView.swift in Sources */,
+				D809C4EB2B99F01C004A736C /* Session.swift in Sources */,
+				D88882D62B989AA50041BA90 /* Utilisateurs.swift in Sources */,
+				D88882CD2B9880C60041BA90 /* ForgotPasswordScreen.swift in Sources */,
+				D88882AB2B9865E50041BA90 /* MainView.swift in Sources */,
+				D88882E32B98A9090041BA90 /* LivreDetailView.swift in Sources */,
+				D88882DF2B98A1D40041BA90 /* LivresListView.swift in Sources */,
+				D88882DA2B989E680041BA90 /* UtilisateursDatas.swift in Sources */,
+				D88882DD2B989F370041BA90 /* LivresDatas.swift in Sources */,
+				D88882A92B9865E50041BA90 /* Booklib_NicolasApp.swift in Sources */,
+				D88882C62B986E100041BA90 /* CustomInput.swift in Sources */,
+				D8BEDA562B9AFE4F00F4C9D0 /* AddLivreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D88882B12B9865E60041BA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D88882B22B9865E60041BA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88882B42B9865E60041BA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Booklib-Nicolas/Preview Content\"";
+				DEVELOPMENT_TEAM = CA4M43ZVMR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Booklib-Nicolas/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zab.Booklib-Nicolas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D88882B52B9865E60041BA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Booklib-Nicolas/Preview Content\"";
+				DEVELOPMENT_TEAM = CA4M43ZVMR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Booklib-Nicolas/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zab.Booklib-Nicolas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88882A02B9865E50041BA90 /* Build configuration list for PBXProject "Booklib-Nicolas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88882B12B9865E60041BA90 /* Debug */,
+				D88882B22B9865E60041BA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88882B32B9865E60041BA90 /* Build configuration list for PBXNativeTarget "Booklib-Nicolas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88882B42B9865E60041BA90 /* Debug */,
+				D88882B52B9865E60041BA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D888829D2B9865E50041BA90 /* Project object */;
+}
